@@ -20,8 +20,6 @@ cmake . make
 - Możesz wprowadzać swoje typowania, a aplikacja będzie dawała odpowiedzi na podstawie poprawności wpisanych słów.
 - Gra kończy się, gdy odgadniesz słowo lub skończą się dostępne próby.
 ## Autor
-Aplikacja została stworzona przez [Twoje Imię/Nazwisko].
+Aplikacja została stworzona przez Dominik Jeżów.
 
-## Licencja
-Ten projekt jest objęty licencją [nazwa licencji]. Więcej informacji można znaleźć w pliku [nazwa pliku licencji].
 
