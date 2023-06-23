@@ -1,0 +1,3 @@
+/home/ciastek/Dokumenty/studia/C++/projekt/cmake-build-debug/CMakeFiles/MySFMLApp.dir
+/home/ciastek/Dokumenty/studia/C++/projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ciastek/Dokumenty/studia/C++/projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
