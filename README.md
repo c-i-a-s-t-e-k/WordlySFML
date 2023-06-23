@@ -1,30 +1,27 @@
 # WordlySFML
-Instrukcja uruchomienia
-Aplikacja "WordlySFML" to gra polegająca na zgadywaniu słów na podstawie wcześniejszych typowań. Poniżej znajdują się instrukcje dotyczące uruchomienia aplikacji na Twoim systemie.
 
-Wymagania
-Przed uruchomieniem aplikacji upewnij się, że spełniasz następujące wymagania:
+## Opis
+WordlySFML to aplikacja umożliwiająca grę w zgadywanie słów na podstawie wcześniejszych typowań. 
 
-CMake w wersji co najmniej 3.0
-Zainstalowana biblioteka SFML w wersji 2.5 lub nowszej, zawierająca komponent "graphics"
-Instrukcje
-Pobierz kod źródłowy aplikacji.
+## Wymagania
+- CMake w wersji 3.0 lub nowszej.
+- Biblioteka SFML w wersji 2.5 lub nowszej, z komponentem "graphics".
 
-Otwórz terminal lub wiersz polecenia.
-
-Przejdź do katalogu, w którym znajduje się kod źródłowy aplikacji.
-
-Wykonaj następujące polecenia:
-
-go
-Copy code
-cmake .
-make
-Polecenie cmake . generuje pliki konfiguracyjne dla Twojego systemu. Polecenie make kompiluje kod źródłowy i tworzy wykonywalny plik.
-
-Po zakończeniu procesu kompilacji, wykonaj następujące polecenie:
-Copy code
+## Instalacja
+1. Pobierz kod źródłowy aplikacji.
+2. Otwórz terminal i przejdź do katalogu z kodem źródłowym.
+3. Wykonaj następujące polecenia:
+cmake . make
+4. Po zakończeniu kompilacji uruchom aplikację poleceniem:
 ./WordlySFML
-To spowoduje uruchomienie aplikacji "WordlySFML".
+## Instrukcja obsługi
+- Po uruchomieniu aplikacji będziesz mieć możliwość rozpoczęcia nowej gry.
+- Na ekranie pojawi się wyświetlone słowo, które będziesz musiał(a) zgadnąć na podstawie wcześniejszych typowań.
+- Możesz wprowadzać swoje typowania, a aplikacja będzie dawała odpowiedzi na podstawie poprawności wpisanych słów.
+- Gra kończy się, gdy odgadniesz słowo lub skończą się dostępne próby.
+## Autor
+Aplikacja została stworzona przez [Twoje Imię/Nazwisko].
 
-Teraz możesz cieszyć się grą zgadywania słów! Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby grać.
+## Licencja
+Ten projekt jest objęty licencją [nazwa licencji]. Więcej informacji można znaleźć w pliku [nazwa pliku licencji].
+
