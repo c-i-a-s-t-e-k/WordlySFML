@@ -17,3 +17,5 @@ add_executable(MySFMLApp main.cpp GameWindow.h GameWindow.cpp StartWindow.cpp Le
 
 # Podłącz bibliotekę SFML do projektu
 target_link_libraries(MySFMLApp sfml-graphics)
+
+set_target_properties(MySFMLApp PROPERTIES OUTPUT_NAME "WordlySFML")

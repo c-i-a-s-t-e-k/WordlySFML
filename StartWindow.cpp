@@ -15,7 +15,7 @@ void StartWindow::drawWindow(){
         }
     });
     thread.detach();
-
+    window->setTitle("Menu window");
     window->setSize(sf::Vector2u(window_width, window_height));
     while (!gameManager->isGameLast())
     {

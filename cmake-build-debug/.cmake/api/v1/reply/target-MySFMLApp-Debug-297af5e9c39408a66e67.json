@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MySFMLApp"
+			"path" : "WordlySFML"
 		}
 	],
 	"backtrace" : 1,
@@ -140,7 +140,7 @@
 		"language" : "CXX"
 	},
 	"name" : "MySFMLApp",
-	"nameOnDisk" : "MySFMLApp",
+	"nameOnDisk" : "WordlySFML",
 	"paths" : 
 	{
 		"build" : ".",

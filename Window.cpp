@@ -11,7 +11,6 @@
 Window::Window(GameManager *gameManager, sf::RenderWindow* window, int height, int width)
         :window_height(height), window_width(width), gameManager(gameManager){
     window->setSize(sf::Vector2u(width, height));
-    window->setTitle("Menu window");
     this->window = window;
     if (!normalTextFount.loadFromFile(path_to_fount)) {
         throw std::runtime_error("fount not loaded, check path_to_fount variable in appPara.h");

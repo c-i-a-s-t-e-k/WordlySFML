@@ -109,17 +109,17 @@ build CMakeFiles/MySFMLApp.dir/Word.cpp.o: CXX_COMPILER__MySFMLApp_Debug /home/c
 
 
 #############################################
-# Link the executable MySFMLApp
+# Link the executable WordlySFML
 
-build MySFMLApp: CXX_EXECUTABLE_LINKER__MySFMLApp_Debug CMakeFiles/MySFMLApp.dir/main.cpp.o CMakeFiles/MySFMLApp.dir/GameWindow.cpp.o CMakeFiles/MySFMLApp.dir/StartWindow.cpp.o CMakeFiles/MySFMLApp.dir/LetterTile.cpp.o CMakeFiles/MySFMLApp.dir/Window.cpp.o CMakeFiles/MySFMLApp.dir/GameManager.cpp.o CMakeFiles/MySFMLApp.dir/Game.cpp.o CMakeFiles/MySFMLApp.dir/StringFactory.cpp.o CMakeFiles/MySFMLApp.dir/Word.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
+build WordlySFML: CXX_EXECUTABLE_LINKER__MySFMLApp_Debug CMakeFiles/MySFMLApp.dir/main.cpp.o CMakeFiles/MySFMLApp.dir/GameWindow.cpp.o CMakeFiles/MySFMLApp.dir/StartWindow.cpp.o CMakeFiles/MySFMLApp.dir/LetterTile.cpp.o CMakeFiles/MySFMLApp.dir/Window.cpp.o CMakeFiles/MySFMLApp.dir/GameManager.cpp.o CMakeFiles/MySFMLApp.dir/Game.cpp.o CMakeFiles/MySFMLApp.dir/StringFactory.cpp.o CMakeFiles/MySFMLApp.dir/Word.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
   OBJECT_DIR = CMakeFiles/MySFMLApp.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = MySFMLApp
-  TARGET_PDB = MySFMLApp.dbg
+  TARGET_FILE = WordlySFML
+  TARGET_PDB = WordlySFML.dbg
 
 
 #############################################
@@ -147,6 +147,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build MySFMLApp: phony WordlySFML
+
 # =============================================================================
 # Folder targets.
 
@@ -155,7 +157,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/ciastek/Dokumenty/studia/C++/projekt/cmake-build-debug
 
-build all: phony MySFMLApp
+build all: phony WordlySFML
 
 # =============================================================================
 # Unknown Build Time Dependencies.
